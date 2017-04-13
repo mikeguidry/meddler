@@ -1,0 +1,118 @@
+Michael Guidry
+April 8, 2017
+Building a system to force distrust of worldwide mass surveillance, or ISP web history platforms
+
+I will outline some ideas which can be crowdsourced, or funded that would cause critical damage to mass surveillance programs worldwide.  It doesn’t matter whether it is government sponsored, or Internet Service Provider (ISP) platforms.  The end result is overall privacy for every citizen using the Internet.  It seems that rights to privacy has taken a turn with the recent repeal by President Donald Trump regarding the Federal Communications Commission (FCC) regulations which ensured our privacy.
+
+The overall concept behind destroying these programs is to cause so many false positives, or fake information where it will take more resources to distinguish the difference than it would the information value, or sale of the data.  If this distrust generating platform is created once then it should work for the entire lifetime of the Internet regardless of where these privacy invasive platforms exist.
+
+
+
+#1 create network for replaying connection worldwide to inject into mass surveillance databases
+
+need two types of nodes
+
+‘webserver’ or ‘server’
+and ‘client’ or ‘spoofed client’
+
+it should be a p2p, or multi-hub linked network with ability to distribute packets to nodes which are needed…
+
+structures of instructions
+int tcp_connection_side; // server or client
+struct _pkts {
+  // is this server or client
+  int connection_side;
+  // pointer to data
+  char *data;
+  // length of data
+  int len;
+  // the packet id
+  int id;
+  // id of the packet which initiates the replaying of this packet
+  int activate_id;
+
+  int source_port;
+  int dest_port;
+  char *source_ip;
+  char *dest_ip;
+} *packets;
+// how many packets exists
+int packet_count;
+// how many total bytes in the packets
+int packet_length_total;
+
+it should allow both server and client to communicate to each other, or the network as whole
+this will allow them to automatically message whenever they are done replaying a message to their internet connection
+which can trigger the other side to replay the next packet…
+it will work perfectly just like any other regular tcp/ip connection by the operating system
+
+iptables* can be setup to automatically block the operating systems from sending ICMP information about ports not available
+
+#2 require module for each web site (social media, ie facebook, etc) for generating the types of messages, such as.. WebSockets, messages, email, etc
+the modules are used to build the packets from either MACRO-fied tcpdump of other connections, or similar
+it needs to be able to handle tcp/ip checksumming and be able to build packets on the fly
+sometimes it might not be smart to use complete packets from tcp dumps.. just building tcp/ip packets and then handling the rest as ‘connection sides’ with their activation ids might work out well enough
+
+
+
+—-
+#3 grab lists of wanted people, and top names that are investigated worldwide.. 
+
+
+
+#4 have various citizens worldwide information for use.. such as e-mails, passwords, etc… possibly using leaked information, and stolen email addresses as well
+——
+#3 can generate mass “web traffic” which is to screw up ISP history sales, and is alternative to first #3
+#4 use various logins, etc..or directives for creating false web traffic which would seem like inflated log files thus ISP selling the information would lose any secondary purchase of logs again
+——-
+
+
+
+#5 determine algorithms on how often to use, and ip addresse, etc to use within these messages… it should relate to targets, or smear campaigns
+
+
+——
+
+right here is a good time to make the program public, and allow crowdsourcing for people who have issues with todays privacy restrictions.. a group can come together and determine assets, and amount of time required to destroy these programs.. or create enough distrust to where they are not a viable option anymore
+
+—-
+
+#6 analysis of BGP routes, and possibly nodes at ISPs which are more than likely monitored
+telecommunication routes, etc should be analyzed to attempt to get boxes within those networks
+it is critical because it plays a role in having both sides on the surveillance tap
+they cover so many IP ranges that it is really impossible for the major taps to mitigate this
+
+this is only used to determine whether a surveillance tap is justifiable going to analyze the packets as they are replayed..
+if you consider how far ranging GCHQ taps are.. it's not an issue there..
+and generally this might not even need to be developed in the first few versions of the application
+
+
+
+#7 use analysis of surveillance nodes to then buy dedicated machines, or access to machines which can be used as one side of the injection
+
+this is no longer an issue for a few versions either.. its generally a part of #6
+
+
+#8 execute, and setup timeframe … possibly using AI/neural networks, or other systems of chat logs to begin to inject messages… possibly having real human assets develop information for distribution
+
+this isn't a problem as long as the nodes connect to each other, or use  a hub
+
+a hub with an entire network of servers, and clients allows them to automatically distribute new tasks to each other from some group of servers who are coordinating the attacks
+
+
+
+
+#8 cyber sensors
+
+need voip phone numbers
+dns
+Whois servers (registrar)
+web servers
+etc… everything required to find ‘cyber investigative connections’ regarding the campaigns being launched
+
+#9 physical sensors
+need to choose correct identities, email addresses, wording, etc
+Web cameras in city that are available should be chosen, and monitored for a few days to train neural networks
+so once injected into particular campaigns the surveillance, or police arriving for questing or other factors is easily caught automatically so the results can be applied into a database for processing
+timing is of importance, especially paired with multiple keywords, and #8
+
