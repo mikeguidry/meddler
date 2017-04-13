@@ -28,3 +28,33 @@ Various messages which can be automatically generated, or wrote my people which 
 
 The overall goal is to have a network of a few hundred machines, and it can automaticaly pick and choose IP addresses, and sites and replay on both sides of the tap so that they all appear to be real..
 
+-----
+
+2-3) editing pcaps, or separation to prepare for injection
+
+tcpreplay-edit will edit packets as its replaying.. this is good for source, and destination addresses
+but an edit to allow content modification is important as well.. for HTTP it will have to modify the Content-Length, and other options
+
+tcpprep will separate packets into client, server..
+
+the server response might not matter much for a lot of social networks, etc.. because it could be AJAX connections
+so the same server response might be similar (something acknowledging, and saying OK it went fine)
+
+so the client might be the most important role.. the good thing is the it makes it easier when doing millions of hits to their networks
+
+4-5)
+tcpreplay-edit will fix checksums as its writing to the wire..
+
+
+6) needs another app which sits as a daemon and waits for instructions on what to distribute...
+in the begining this can be as simple as getting a pcap, knowing whether its client/server, and injecting
+
+in future..  it should be able to genrate its own content, and have a database of profiles
+either sent with instructions, or overall
+
+
+10) say goodbye to all mass surveillance...with a decent amount of people fighting back like THIS.. 
+    they won't last forever :)
+
+    kudos to NSA.. this is what you get for fucking with me, and stealing my technology..
+    oh well.. next time you'll reconsider :)
