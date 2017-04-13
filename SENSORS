@@ -1,0 +1,46 @@
+How to create a new sensor (name, or address) to monitor to detect activity from a mass surveillance manipulation campaign:
+
+EarthCam - Webcam Network
+https://www.earthcam.com/
+EarthCam is the leading network of live webcams and offers the most comprehensive search engine of internet cameras from around the world. EarthCam also creates and produces live ... Big Apple Cam. Big Apple Cam. New York City, NY.
+
+SkylineWebcams | Live Cams around the World!
+https://www.skylinewebcams.com/en.html
+SkylineWebcams - Live Cam in the most beautiful tourist attractions of the world! ... Webcam Madrid - Puerta del Sol Madrid - Puerta del ... Explore the Webcams.
+
+
+Ok an example of generating a 'sensor' to be used in a mass survellance injection campaign:
+1) I used one of the webcam network sites above to find this site.  I picked a random camera on here, and ensured a house
+was within the cameras view.  You can view this all day long as a 'traffic camera' but if you choose a window around the house,
+then you can process that into a neural network.  You can use activity over a few days to create a 'normal' category..
+Anything else that changes within this picture should be detected as anominally.  This means that you can use
+many random web cams, traffic cameras, or other resources online which have plain view of homes, business, etc.
+
+http://vancouver.ca/streets-transportation/traffic-cameras.aspx - Intersection:Clark Dr & E 12th Av
+
+2) I found this address on google maps by using the intersection.  I found the Super Save Gas Station afterwards..
+https://www.google.com/maps/@49.2596846,-123.0771283,3a,75y,357.59h,91.59t/data=!3m6!1e1!3m4!1slSs21-81uJB-hKlWxF3MRw!2e0!7i13312!8i6656!6m1!1e1
+Gas Station in view:
+
+Super Save
+1317 E 12th Ave
+Clark Dr
+Vancouver, BC V5N 2A1
+Phone: 604-875-6481
+
+The house next to the gas station:
+1329 E 12th Ave
+Vancouver, BC V5N 2A1
+
+If you use this image to create a window (pixel window) then you can export only those select pixels to go into your
+neural network to categorize whether it is normal for that address, or an anominally.. The anominally may be police
+showing up, different cars in drive way, etc... It depends on your neural network
+
+It may be possible to have a neural network of various surveillance being done and then you could just use that on
+every camera without initially monitoring it for awhile.  This would allow you to detect police uniforms, and other factors.
+
+Afterwords you would find the name of individuals working, or living at the addresses you choose.  You can then begin to
+pair them with keywords in mass surveillance campaigns that relate to current activities, wanted associates, crimes, etc..
+It is up to you to figure out that side of things.. I'm just giving a generalization of how its possible.
+
+
