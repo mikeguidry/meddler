@@ -18,3 +18,13 @@ If we are just wanting to inject sessions for exhausting government resources, t
 4) fix checksums
 5) transfer the packets to servers on both sides of the tap
 6) replay the sessions (requires root since we are spoofing)
+
+
+I'll start with the capturing, and separation of packets.  I'll look for software to split apart the packets afterwards so that they can be easily modified for changing names, e-mails, etc.
+
+The way to load, and insert profiles should come next.  Once some major sites are captured then macros can be created for each site for automatically injecting certain profiles spoofing possibly wanted people, or targets.
+
+Various messages which can be automatically generated, or wrote my people which will contain things that should set off alarms on these surveillance programs will be required next to replace the macros very quickly.. this will allow inserting millions of false sessions very quickly...
+
+The overall goal is to have a network of a few hundred machines, and it can automaticaly pick and choose IP addresses, and sites and replay on both sides of the tap so that they all appear to be real..
+
