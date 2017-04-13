@@ -1,0 +1,20 @@
+Meddler - Software to manipulate, disrupt, or cause issues with mass surveillance platforms
+
+This is being developed with two major examples.  It'll be for manipulating the NSA, or GCHQ taps.  I will focus on resources, and examples of both.
+
+
+
+Overview:
+
+The point is to replay specific sessions which are intended on manipulating these surveillance programs.
+
+They monitor TCP/IP connections over taps, so if we spoof both sides then we are fine.
+If we wish to notice when the NSA injects (Fox Acid) web hacks into our connections, then we need to have control of at least the client side.
+If we are just wanting to inject sessions for exhausting government resources, then we can spoof any sites all day long.
+
+1) Monitor our connections to some websites
+2) Use tcpreplay to split up the pcaps to client, and server
+3) edit the pcaps (maybe dump each packet separately for editing)
+4) fix checksums
+5) transfer the packets to servers on both sides of the tap
+6) replay the sessions (requires root since we are spoofing)
